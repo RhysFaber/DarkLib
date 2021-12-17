@@ -217,12 +217,5 @@ The `:Keybind()` call creates an option to change a keybind
 - *key*: `KeyCode` - The key assigned to the bind
 - *callback*: `function` - The function that is called when the object is activated
 
-### Example
-
-```lua
--- Create a new label, name it "Extra Settings"
-MainW:Label("Extra Settings")
-```
-
 ---
 <!-------------------------------------------------------------------------------------------------------------->
