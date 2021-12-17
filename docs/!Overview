@@ -1,0 +1,78 @@
+    DarkLib 
+        DarkLib:Window()
+            Creates the basic background template for the UI
+
+    Window
+        Window:Tab(text)
+            Creates a new tab at the top of the UI 
+
+            Arguments -
+                text: str - The name of the object
+
+
+        Window:Button(text, callback)
+            Creates a button that runs once
+
+            Arguments - 
+                text: str - The name of the object  
+                callback: function - The function that is called when the object is activated
+
+
+        Window:Toggle(text, callback)
+            Creates a toggle button that turns an element on/off
+
+            Arguments -
+                text: str - The name of the object
+                callback: function - The function that is called when the object is activated
+
+
+        Window:Slider(text, min, max, callback)
+            Creates a slider to input integers
+
+            Arguments -
+                text: str - The name of the object
+                min: int - The minimum value of the slider
+                max: int - The maximum value of the slider
+                callback: function - The function that is called when the object is activated
+
+
+        Window:Dropdown(text, list, callback)
+            Creates a dropdown to display certain values
+
+            Arguments -
+                text: str - The name of the object
+                ist: list - The list of values to be displayed
+                callback: function - The function that is called when the object is activated
+
+        
+        Window:Colorpicker(text, preset, callback)
+            Creates a colour picker to select colours
+
+            Arguments -
+                text: str - The name of the object
+                preset: Color3 - The current colour selected
+                callback: function - The function that is called when the object is activated
+
+        
+        Window:Textbox(text, disapper, callback)
+            Creates a box that allows the user to type
+
+            Arguments -
+                text: str - The name of the object
+                disapper: bool - Whether the text dissapears when in focus
+                callback: function - The function that is called when the object is activated
+
+        
+        Window:Keybind(text, key, callback)
+            Creates an option to change a keybind
+
+            Arguments -
+                text: str - The name of the object
+                key: KeyCode - The key assigned to the bind
+                callback: function - The function that is called when the object is activated
+
+        Window:Label(text)
+            Creates a label in the interface
+
+            Arguments -
+                text: str - The name of the object
