@@ -17,7 +17,7 @@ The `:Window()` call is used to create a new UI background (or window) for the c
 
 ```lua
 -- Loading the main window
-local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/..."))()
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/NewUI"))()
 
 -- Creating the main window
 main = lib:Window()
